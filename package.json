@@ -1,0 +1,30 @@
+{
+  "name": "study-room",
+  "version": "0.1.0",
+  "private": true,
+  "description": "让 Claude Code 当你的私人老师：摸底、排课、写讲义、出小测、批改，配一个能自己跑的学习室网页",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite web",
+    "build": "vite build web",
+    "start": "node server/index.js",
+    "seed": "python3 tools/seed_example.py"
+  },
+  "dependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.5.0",
+    "better-sqlite3": "^11.10.0",
+    "express": "^4.21.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
